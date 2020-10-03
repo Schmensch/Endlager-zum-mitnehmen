@@ -1,7 +1,6 @@
 import json
 import urllib.request
 
-#url = 'https://raw.githubusercontent.com/Schmensch/Endlager-zum-mitnehmen/master/story.json'
 data = open("story.json", "r")
 game = json.loads(data.read())
 
