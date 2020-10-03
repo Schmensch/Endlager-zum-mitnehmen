@@ -1,12 +1,14 @@
-# What is the game about
+# Um was geht es
 
-This game is about, well, getting a job.
-You play as a human (maybe I'll add more playable species) and make different researches and invest time in skills. After a certain amount of investing in different fields of study, you get your job.
+In diesem Spiel bist du der Bürgermeister einer Stadt, und du musst versuchen, ein Atomares Endlager in deinen Ort zu bekommen, damit du von den Prämien profitierst. Dein Ort braucht außerdem neue Arbeitsplätze, da die Hauptindustrie langsam bankrott geht.
 
-## How do I play
+Warum also gibt es so viele Proteste dagegen?
 
-You can play the game by launching the main.py file. You also need Python 3.
+## Wie genau spiele ich das Spiel?
 
-## What is the project about
+Klone das Github-Repo. Dann startest du die main.py-Datei im Hauptverzeichnis.
+Du brauchst außerdem Internet, um die Geschichte von den Github-Servern zu laden.
 
-This project is intended to be a submission in the yearly Game Award Saar.
+## Warum hast du dieses Spiel erstellt?
+
+Dieses Spiel ist als eine Einreichung in den Game Award Saar gedacht, aber ich arbeite wahrscheinlich auch noch danach weiter daran.
