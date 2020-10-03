@@ -1,24 +1,22 @@
 import json
-import urllib.request
 
-data = open("story.json", "r")
+try:
+    data = open("story.json", "r")
+except:
+    print("story.json was not found. Exiting")
+    quit
 story = json.loads(data.read())
 
 decision = "start"
 
-decision_data = story[decision]
-
-print(decision_data["text"])
-print(decision_data["question"])
-
 while True:
+    decision_data = story[decision]
+
+    print(decision_data["text"])
+    print(decision_data["question"])
+
     answer = input()
-    answer = answer.lower
-    if answer == "j" or answer == "n":
-        break
-    else:
-        print("answer has to be <j> or <n>")
 
-decision = decision_data[answer]
+    decision = decision_data[answer]
 
-print("Nächste Entscheidung: " + decision)
+    print("Nächste Entscheidung: " + decision)
