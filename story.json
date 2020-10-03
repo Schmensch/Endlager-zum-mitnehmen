@@ -2,13 +2,17 @@
     "start": {
         "text": "Du willst ein Atomendlager bauen lassen.",
         "question": "Willst du einen Brief an die Atomendlagerkommision schreiben?",
-        "j": "start",
+        "j": "you_got_message",
         "n": "end"
     },
     "you_got_message": {
-        "text": "Die Kommision hat dir geantwortet. Sie schaut sich den Ort genauer an."
+        "text": "Die Kommision hat dir geantwortet. Sie schaut sich den Ort genauer an. Sie will wissen, ob der Boden geeignet ist, um auch mehrere millionen Jahre zu halten",
+        "question": "Willst du die Bodenproben fälschen <f> oder ein professionelles Team den Boden auswerten lassen <p> ?",
+        "f": "",
+        "p": ""
     },
     "end" : {
-        "text": "bye"
+        "text": "bye",
+        "question": ""
     }
 }
