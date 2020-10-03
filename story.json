@@ -2,7 +2,7 @@
     "start": {
         "text": "Du willst ein Atomendlager bauen lassen.",
         "question": "Willst du einen Brief an die Atomendlagerkommision schreiben?",
-        "j": "end",
+        "j": "start",
         "n": "end"
     },
     "end" : {
