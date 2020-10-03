@@ -10,7 +10,14 @@ decision_data = game[decision]
 
 print(decision_data["text"])
 print(decision_data["question"])
-answer = input()
+
+while True:
+    answer = input()
+    answer = answer.lower
+    if answer == "j" or answer == "n":
+        break
+    else:
+        print("answer has to be <j> or <n>")
 
 decision = decision_data[answer]
 
