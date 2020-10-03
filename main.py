@@ -2,11 +2,11 @@ import json
 import urllib.request
 
 data = open("story.json", "r")
-game = json.loads(data.read())
+story = json.loads(data.read())
 
 decision = "start"
 
-decision_data = game[decision]
+decision_data = story[decision]
 
 print(decision_data["text"])
 print(decision_data["question"])

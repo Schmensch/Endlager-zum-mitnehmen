@@ -5,6 +5,9 @@
         "j": "start",
         "n": "end"
     },
+    "you_got_message": {
+        "text": "Die Kommision hat dir geantwortet. Sie schaut sich den Ort genauer an."
+    },
     "end" : {
         "text": "bye"
     }
