@@ -21,4 +21,4 @@ while True:
 
     decision = decision_data[answer]
 
-    print("Nächste Entscheidung: " + decision)
+    #print("Nächste Entscheidung: " + decision)
