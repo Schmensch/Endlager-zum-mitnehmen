@@ -1,10 +1,12 @@
 import json
+import sys
 
 try:
     data = open("story.json", "r")
 except:
-    print("story.json was not found. Exiting")
-    quit
+    print("story.json was not found. Exiting.")
+    sys.exit()
+
 story = json.loads(data.read())
 
 decision = "start"
