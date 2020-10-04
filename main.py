@@ -2,7 +2,7 @@ import json
 import sys
 
 try:
-    data = open("story.json", "r")
+    data = open("story.json", "r", encoding="utf-8")
 except:
     print("story.json was not found. Exiting.")
     sys.exit()
