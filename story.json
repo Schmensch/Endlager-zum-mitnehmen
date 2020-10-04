@@ -5,26 +5,30 @@
         "j": "brief_bekommen",
         "n": "nach_mehreren_wochen"
     },
-    "nach_mehreren_wochen": {
-        "text": "Du wartest geduldig auf die Kommision, und nach mehreren Jahren an Wartezeit meldet sich endlich jemand.",
-        "question": "Enter um weiterzugehen",
-        "": "brief_bekommen"
-
-    },
     "brief_bekommen": {
         "text": "Die Kommision hat dir geschrieben. Sie schaut sich den Ort genauer an. Sie will wissen, ob der Boden geeignet ist, um auch mehrere millionen Jahre zu halten.",
         "question": "Willst du die Bodenproben fälschen <f> oder ein professionelles Team den Boden auswerten lassen <p> ?",
         "f": "naehere_auswahl",
         "p": "nie_genommen"
     },
+    "nach_mehreren_wochen": {
+        "text": "Du wartest geduldig auf die Kommision, und nach mehreren Jahren an Wartezeit meldet sich endlich jemand.",
+        "question": "Enter um weiterzugehen.",
+        "": "brief_bekommen"
+    },
     "naehere_auswahl": {
-        "text": "Du bist in die nähere Auswahl gekommen. \n Jetzt werden erste stimmen laut. Viele Bürger, besonders Leute aus dem unteren Mittelstand und der Armut haben Angst, dass das Lager die Kinder vergiften wird.",
+        "text": "Du bist in die nahere Auswahl gekommen. \n Jetzt werden erste stimmen laut. Viele Bürger, besonders Leute aus dem unteren Mittelstand und der Armut haben Angst, dass das Lager die Kinder vergiften wird.",
         "question": "Wirst du mir den Zuschüssen ein neues Schwimmbad bauen lassen <s> oder die Leute damit überzeugen, dass es neue Arbeitsplätze gibt <a>?",
         "s": "",
         "a": ""
     },
-    "end" : {
-        "text": "",
-        "question": ""
+    "nie_genommen": {
+        "text": "Das Team stellt fest, dass der Boden eher ungeeignet für ein Atomlager ist.",
+        "question": " Die Kommision sagt, sie werden dich erst später anschauen,aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen. \n Enter um weiterzugehen.",
+        "": "ende"
+    },
+    "ende" : {
+        "text": "Dankeschön für das Spielen dieses Spiels.",
+        "question": "Code \n Jonathan Zeller \n \n Story \n Jonathan Zeller \n \n Großes Dankeschön an \n Ludwig Richter für das Helfen bei der Story \n Kerstin Reese und Andreas Zeller für das helfen bei der Story \n den Game Award Saar für den Impuls dieses Spiel zu erstellen."
     }
 }
