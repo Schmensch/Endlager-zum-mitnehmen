@@ -2,17 +2,29 @@
     "start": {
         "text": "Du willst ein Atomendlager bauen lassen.",
         "question": "Willst du einen Brief an die Atomendlagerkommision schreiben?",
-        "j": "you_got_message",
-        "n": "end"
+        "j": "brief_bekommen",
+        "n": "nach_mehreren_wochen"
     },
-    "you_got_message": {
-        "text": "Die Kommision hat dir geantwortet. Sie schaut sich den Ort genauer an. Sie will wissen, ob der Boden geeignet ist, um auch mehrere millionen Jahre zu halten",
+    "nach_mehreren_wochen": {
+        "text": "Du wartest geduldig auf die Kommision, und nach mehreren Jahren an Wartezeit meldet sich endlich jemand.",
+        "question": "Enter um weiterzugehen",
+        "": "brief_bekommen"
+
+    },
+    "brief_bekommen": {
+        "text": "Die Kommision hat dir geschrieben. Sie schaut sich den Ort genauer an. Sie will wissen, ob der Boden geeignet ist, um auch mehrere millionen Jahre zu halten.",
         "question": "Willst du die Bodenproben fälschen <f> oder ein professionelles Team den Boden auswerten lassen <p> ?",
-        "f": "",
-        "p": ""
+        "f": "naehere_auswahl",
+        "p": "nie_genommen"
+    },
+    "naehere_auswahl": {
+        "text": "Du bist in die nähere Auswahl gekommen. \n Jetzt werden erste stimmen laut. Viele Bürger, besonders Leute aus dem unteren Mittelstand und der Armut haben Angst, dass das Lager die Kinder vergiften wird.",
+        "question": "Wirst du mir den Zuschüssen ein neues Schwimmbad bauen lassen <s> oder die Leute damit überzeugen, dass es neue Arbeitsplätze gibt <a>?",
+        "s": "",
+        "a": ""
     },
     "end" : {
-        "text": "bye",
+        "text": "",
         "question": ""
     }
 }
