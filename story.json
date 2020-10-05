@@ -3,15 +3,15 @@
         "text": "Du willst ein Atomendlager bauen lassen.",
         "question": "Willst du einen Brief an die Atomendlagerkommision schreiben?",
         "j": "brief_bekommen",
-        "n": "nach_mehreren_wochen"
+        "n": "nach_mehreren_jahren"
     },
     "brief_bekommen": {
-        "text": "Die Kommision hat dir geschrieben. Sie schaut sich den Ort genauer an. Sie will wissen, ob der Boden geeignet ist, um auch mehrere millionen Jahre zu halten.",
+        "text": "Die Kommission hat dir geschrieben. Sie schaut sich den Ort genauer an. Sie will wissen, ob der Boden geeignet ist, um auch mehrere millionen Jahre zu halten.",
         "question": "Willst du die Bodenproben fälschen <f> oder ein professionelles Team den Boden auswerten lassen <p> ?",
         "f": "naehere_auswahl",
         "p": "nie_genommen"
     },
-    "nach_mehreren_wochen": {
+    "nach_mehreren_jahren": {
         "text": "Du wartest geduldig auf die Kommision, und nach mehreren Jahren an Wartezeit meldet sich endlich jemand.",
         "question": "Enter um weiterzugehen.",
         "": "brief_bekommen"
