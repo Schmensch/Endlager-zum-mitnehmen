@@ -7,7 +7,6 @@ Warum also gibt es so viele Proteste dagegen?
 ## Wie genau spiele ich das Spiel?
 
 Klone das Github-Repo. Dann startest du die main.py-Datei im Hauptverzeichnis.
-Du brauchst außerdem Internet, um die Geschichte von den Github-Servern zu laden.
 
 ## Warum hast du dieses Spiel erstellt?
 
