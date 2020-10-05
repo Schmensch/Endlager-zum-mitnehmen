@@ -1,7 +1,7 @@
 {
     "start": {
-        "text": "Du willst ein Atomendlager bauen lassen.",
-        "question": "Willst du einen Brief an die Atomendlagerkommision schreiben?",
+        "text": "Du willst ein Atomendlager bauen lassen. Dafür musst du mit der Atomentlager-Komission in kontackt treten.",
+        "question": "Willst du einen Brief an die Atomendlagerkommision schreiben? \n <j> Ja \n <n> Nein",
         "j": "brief_bekommen",
         "n": "nach_mehreren_jahren"
     },
@@ -17,14 +17,14 @@
         "": "brief_bekommen"
     },
     "naehere_auswahl": {
-        "text": "Du bist in die nahere Auswahl gekommen. \n Jetzt werden erste stimmen laut. Viele Bürger, besonders Leute aus dem unteren Mittelstand und der Armut haben Angst, dass das Lager die Kinder vergiften wird.",
+        "text": "Du bist in die nahere Auswahl gekommen. \n Jetzt werden erste Stimmen laut, viele Bürger, besonders Leute aus dem unteren Mittelstand und der Armut haben Angst, dass das Lager die Kinder vergiften könnte.",
         "question": "Wirst du mir den Zuschüssen ein neues Schwimmbad bauen lassen <s> oder die Leute damit überzeugen, dass es neue Arbeitsplätze gibt <a>?",
         "s": "",
         "a": ""
     },
     "nie_genommen": {
         "text": "Das Team stellt fest, dass der Boden eher ungeeignet für ein Atomlager ist.",
-        "question": " Die Kommision sagt, sie werden dich erst später anschauen,aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen. \n Enter um weiterzugehen.",
+        "question": " Die Kommision sagt, sie werden sich deine Stadt später nochmal anschauen, aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen, da der Boden deiner Stadt nicht geignet ist.\n Enter um weiterzugehen.",
         "": "ende"
     },
     "ende" : {
