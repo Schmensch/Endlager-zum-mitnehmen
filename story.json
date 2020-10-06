@@ -18,7 +18,7 @@
     },
     "naehere_auswahl": {
         "text": "Du bist in die nahere Auswahl gekommen. \n Jetzt werden erste Stimmen laut, viele Bürger, besonders Leute aus dem unteren Mittelstand und der Armut haben Angst, dass das Lager die Kinder vergiften könnte.",
-        "question": "Wirst du mir den Zuschüssen einen neuen Golfclub bauen lassen <s> oder die Leute damit überzeugen, dass es neue Arbeitsplätze gibt <a>?",
+        "question": "Wirst du mir den Zuschüssen einen neuen Golfclub bauen lassen <g> oder die Leute damit überzeugen, dass es neue Arbeitsplätze gibt <a>?",
         "g": "Golfclub",
         "a": ""
     },
