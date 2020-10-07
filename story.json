@@ -4,26 +4,66 @@
         "j": "brief_bekommen",
         "n": "nach_mehreren_jahren"
     },
-    "brief_bekommen": {
+    "bodenproben": {
         "text": "Die Kommission hat dir geschrieben. Sie schaut sich den Ort genauer an. Sie will wissen, ob der Boden geeignet ist, um auch mehrere millionen Jahre zu halten.\nWillst du die Bodenproben fälschen oder ein professionelles Team den Boden auswerten lassen?\n   <f> fälschen\n   <p> Profesionelles Team",
         "f": "naehere_auswahl",
         "p": "nie_genommen"
     },
     "nach_mehreren_jahren": {
-        "text": "Du wartest geduldig auf die Kommision, und nach mehreren Jahren an Wartezeit meldet sich endlich jemand.\nEnter um weiterzugehen.",
-        "": "brief_bekommen"
+        "text": "Du wartest geduldig auf die Kommision, und nach mehreren Jahren an Wartezeit meldet sich endlich jemand.",
+        "": "bodenproben"
     },
     "naehere_auswahl": {
         "text": "Du bist in die nahere Auswahl gekommen.\nJetzt werden erste Stimmen laut, viele Bürger, besonders Leute aus dem unteren Mittelstand und der Armut haben Angst, dass das Lager die Kinder vergiften könnte.\nWirst du mir den Zuschüssen einen neuen Golfclub bauen lassen oder die Leute damit überzeugen, dass es neue Arbeitsplätze gibt?\n   <g> Golfclub\n   <a> Arbeitsplätze",
         "g": "Golfclub",
-        "a": ""
+        "a": "mehr_arbeitsplaetze"
+    },
+    "mehr_arbeitsplaetze": {
+        "text": "Da die meisten Protestierenden aus der unteren Mittelschicht kommen und der Hauptwirtschaftszweig deiner Stadt schwach ist, haben die Proteste jetzt zum allergrößten Teil aufgehört.",
+        "": "gewaehlt"
+    },
+    "gewaehlt": {
+        "text": "Die Komission hat dir geschrieben. Du wurdest genommen! Die Bauarbeiten sollen schon in einer Woche anfangen.",
+        "": "bauarbeiten_verzögern_sich1"
+    },
+    "bauarbeiten_verzögern_sich1": {
+        "text": "Die Bauarbeiten verzögern sich.",
+        "": "bauarbeiten_verzögern_sich2"
+    },
+    "bauarbeiten_verzögern_sich2": {
+        "text": "Die Bauarbeiten verzögern sich wieder, mitlerweile ist es schon 2022.",
+        "": "bauarbeiten_verzögern_sich3"
+    },
+    "bauarbeiten_verzögern_sich3": {
+        "text": "Die Bauarbeiten verzögern sich immer noch.",
+        "": "bauarbeiten_sabotiert"
+    },
+    "bauarbeiten_sabotiert": {
+        "text": "Die Bauarbeiten ewerden sabotiert. Wer war es?\n 1. Ein Verschwörungstheoretiker, der schon viele Posts darüber gemacht hat, wie gefährlich ein Atomendlager ist.\n 2. Ein haufen halbstarker Jugendlicher, die besoffen waren und sich in der Nähe aufgehalten haben.\n\n <1> Verschwörungstheoretiker\n <2> halbstarke Jugendliche",
+        "1": "verschörungstheoretiker",
+        "2": "halbstarke"
+    },
+    "verschörungstheoretiker": {
+        "text": "Der Verschwörungstheoretiker wird festgenommen. In der Filterblase vieler anderer Verschwörungstheoretiker bereitet sich ein Shitstorm aus, der aber dank der Algorithmen von Twitter nie an Außenstehende geht.",
+        "": "bauarbeiten_verzögern_sich4"
+    },
+    "halbstarke": {
+        "text": "Die Jugendlichen werden festgenommen. Anscheinend hatten sie Freunde, die nun gar nicht gut gelaunt sind, denn am nächsten Tag geht eine Gruppe randalierender Personen durch die Stadt, die die Passanten verägern.",
+        "": "bauarbeiten_verzögern_sich4"
+    },
+    "bauarbeiten_verzögern_sich4": {
+        "text": "Die Bauarbeiten verzögern sich und die Eröffnung wird auf 2030 verschoben.",
+        "": "erroeffnung"
+    },
+    "erroeffnung": {
+        "text": "Du bist schon lange kein Bürgermeister mehr. Während du deine Rente genießt, kommt eine Zeitung an. 2043: Jetzt endlich die Atomendlagereröffnung?"
     },
     "nie_genommen": {
-        "text": "Das Team stellt fest, dass der Boden eher ungeeignet für ein Atomlager ist.\nDie Kommision sagt, sie werden sich deine Stadt später nochmal anschauen, aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen, da der Boden deiner Stadt nicht geignet ist.\n   Enter um weiterzugehen.",
+        "text": "Das Team stellt fest, dass der Boden eher ungeeignet für ein Atomlager ist.\nDie Kommision sagt, sie werden sich deine Stadt später nochmal anschauen, aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen, da der Boden deiner Stadt nicht geignet ist.",
         "": "ende"
     },
     "Golfclub": {
-        "text": "Da die meisten Leute aus der unteren Mittelschicht kommen, interessieren sie sich nicht für einen neuen Golfclub, von dem sie nicht profitieren können.\nDas Lager wird aufgrund andauernder Proteste in einem anderen Ort gebaut.\n   Enter um weiterzugehen.",
+        "text": "Da die meisten Leute aus der unteren Mittelschicht kommen, interessieren sie sich nicht für einen neuen Golfclub, von dem sie nicht profitieren können.\nDas Lager wird aufgrund andauernder Proteste in einem anderen Ort gebaut.",
         "": "ende"
     },
     "ende" : {
