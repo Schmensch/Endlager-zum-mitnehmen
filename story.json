@@ -26,11 +26,11 @@
         "": "ein_zweiter_brief"
     },
     "ein_zweiter_brief": {
-        "text": "Die Kommision schreibt dir das das Endlager in deiner stadt geebaut werden soll. die bauarbeiten beginnen noch in diesem Monat. ",
+        "text": "Die Kommision schreibt dir das das Endlager in deiner stadt geebaut werden soll. die bauarbeiten beginnen noch in diesem Monat. Enter zum Fortfahren.",
         "": ""
     },
     "Sabotage": {
-        "text": "Die Bauarbeiten wurden Sabotiert!",
+        "text": "Die Bauarbeiten wurden Sabotiert! \n Die Frage ist wer das ",
         "": ""
     },
     "golfclub": {
