@@ -34,4 +34,4 @@ while True:
                 break
 
             except:
-                print("Bitte eine valide Antwort eingeben. \n")
+                print("\nBitte eine valide Antwort eingeben.\n\n\n")
