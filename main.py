@@ -29,7 +29,7 @@ while True:
 
                 answer = input()
                 print("\n")
-                decision = decision_data[answer]
+                decision = decision_data[decision][answer]
 
                 break
 
