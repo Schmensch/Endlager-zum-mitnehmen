@@ -5,27 +5,23 @@
         "j": "brief_bekommen",
         "n": "nach_mehreren_jahren"
     },
+    "nach_mehreren_jahren": {
+        "text": "Du wartest geduldig auf die Kommision, und nach mehreren Jahren an Wartezeit meldet sich endlich jemand.",
+        "question": "Enter um weiterzugehen.",
+        "": "brief_bekommen"
+    },
     "brief_bekommen": {
         "text": "Die Kommission hat dir geschrieben. Sie schaut sich den Ort genauer an. Sie will wissen, ob der Boden geeignet ist, um auch mehrere millionen Jahre zu halten.",
         "question": "Willst du die Bodenproben fälschen <f> oder ein professionelles Team den Boden auswerten lassen <p> ?",
         "f": "naehere_auswahl",
         "p": "nie_genommen"
     },
-    "nach_mehreren_jahren": {
-        "text": "Du wartest geduldig auf die Kommision, und nach mehreren Jahren an Wartezeit meldet sich endlich jemand.",
-        "question": "Enter um weiterzugehen.",
-        "": "brief_bekommen"
-    },
     "naehere_auswahl": {
         "text": "Du bist in die nahere Auswahl gekommen. \n Jetzt werden erste Stimmen laut, viele Bürger, besonders Leute aus dem unteren Mittelstand und der Armut haben Angst, dass das Lager die Kinder vergiften könnte.",
         "question": "Wirst du mir den Zuschüssen einen neuen Golfclub bauen lassen <g> oder die Leute damit überzeugen, dass es neue Arbeitsplätze gibt <a>?",
         "g": "golfclub",
         "a": "arbeitsplaetze"
-    },
-    "nie_genommen": {
-        "text": "Das Team stellt fest, dass der Boden eher ungeeignet für ein Atomlager ist.",
-        "question": " Die Kommision sagt, sie werden sich deine Stadt später nochmal anschauen, aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen, da der Boden deiner Stadt nicht geignet ist.\n Enter um weiterzugehen.",
-        "": "ende"
+
     },
     "golfclub": {
         "text": "Da die Meisten Leute die gegen das Endlager protestieren es sich garnicht leisten können in einen Golfclub zu gehn klapt das nicht wirklich gut. ",
@@ -34,9 +30,13 @@
     },
     "zuviel_wiederstand": {
         "text": "Deine stadt wird als 10. Ersatzstadt auf die Liste gesetzt, kommt jedoch nie zum einsatz.",
-        "question": "Enter zum beenden \n <n> um nochmal zu spielen",
-        "": "ende",
-        "n": "start"
+        "question": "Enter zum beenden",
+        "": "ende"
+    },
+    "nie_genommen": {
+        "text": "Das Team stellt fest, dass der Boden eher ungeeignet für ein Atomlager ist.",
+        "question": " Die Kommision sagt, sie werden sich deine Stadt später nochmal anschauen, aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen, da der Boden deiner Stadt nicht geignet ist.\n Enter um weiterzugehen.",
+        "": "ende"
     
     },
     "ende" : {
