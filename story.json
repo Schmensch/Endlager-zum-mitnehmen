@@ -29,8 +29,15 @@
     },
     "golfclub": {
         "text": "Da die Meisten Leute die gegen das Endlager protestieren es sich garnicht leisten können in einen Golfclub zu gehn klapt das nicht wirklich gut. ",
-        "question": "Die Kommision meint das ein Endlager nur gebaut werden kann wenn die Einwohner deines Ortes damit einverstanden sind \n Enter um weiterzugehen",
-
+        "question": "Die Kommision meint das ein Endlager nur gebaut werden kann wenn die Einwohner deines Ortes damit einverstanden sind \n Enter um weiterzulesen",
+        "": "zuviel_wiederstand"
+    },
+    "zuviel_wiederstand": {
+        "text": "Deine stadt wird als 10. Ersatzstadt auf die Liste gesetzt, kommt jedoch nie zum einsatz.",
+        "question": "Enter zum beenden \n <n> um nochmal zu spielen",
+        "": "ende",
+        "n": "start"
+    
     },
     "ende" : {
         "text": "Dankeschön für das Spielen dieses Spiels.",
