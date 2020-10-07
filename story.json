@@ -1,7 +1,6 @@
 {
     "start": {
-        "text": "Du willst ein Atomendlager bauen lassen. Dafür musst du mit der Atomentlager-Komission in kontackt treten.",
-        "question": "Willst du einen Brief an die Atomendlagerkommision schreiben? \n <j> Ja \n <n> Nein",
+        "text": "Du willst ein Atomendlager bauen lassen. Dafür musst du mit der Atomendlager-Komission in Kontakt treten.\nWillst du einen Brief an die Atomendlagerkommision schreiben?\n <j> Ja\n <n> Nein",
         "j": "brief_bekommen",
         "n": "nach_mehreren_jahren"
     },
@@ -23,7 +22,7 @@
         "a": "arbeitsplaetze"
     },
     "arbeitsplaetze": {
-        "text": "Da die meißten Protestierenden dadurch das die lokale Stahlfarbrick pleite ist Keinnen Arbeitsplatz Haben Funktioniert das sehr gut und die Proteste Verstummen.",
+        "text": "Da die meißten Protestierenden dadurch das die lokale Stahlfarbrick pleite ist Keinnen Arbeitsplatz Haben Funktioniert das sehr gut und die Proteste Verstummen. \n Enter um Weiter zu machen",
         "": "ein_zweiter_brief"
     },
     "ein_zweiter_brief": {
@@ -31,7 +30,7 @@
         "": ""
     },
     "Sabotage": {
-        "text": "",
+        "text": "Die Bauarbeiten wurden Sabotiert!",
         "": ""
     },
     "golfclub": {
@@ -45,12 +44,20 @@
         "": "ende"
     },
     "nie_genommen": {
-        "text": "Das Team stellt fest, dass der Boden eher ungeeignet für ein Atomlager ist.",
-        "question": " Die Kommision sagt, sie werden sich deine Stadt später nochmal anschauen, aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen, da der Boden deiner Stadt nicht geignet ist.\n Enter um weiterzugehen.",
+        "text": "Das Team stellt fest, dass der Boden eher ungeeignet für ein Atomlager ist.\nDie Kommision sagt, sie werden sich deine Stadt später nochmal anschauen, aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen, da der Boden deiner Stadt nicht geignet ist.",
         "": "ende"
     },
+<<<<<<< HEAD
     "ende" : {
         "text": "Dankeschön für das Spielen dieses Spiels.",
         "question": "Code \n Jonathan Zeller \n Ludwig Richter \n \n Story \n Jonathan Zeller \n \n Großes Dankeschön an \n Ludwig Richter für das Helfen bei der Story \n Kerstin Reese und Andreas Zeller für das helfen bei der Story \n den Game Award Saar für den Impuls dieses Spiel zu erstellen."
+=======
+    "Golfclub": {
+        "text": "Da die meisten Leute aus der unteren Mittelschicht kommen, interessieren sie sich nicht für einen neuen Golfclub, von dem sie nicht profitieren können.\nDas Lager wird aufgrund andauernder Proteste in einem anderen Ort gebaut.",
+        "": "ende"
+    },
+    "ende" : {
+        "text": "Dankeschön für das Spielen dieses Spiels.\n\nCode:\n - Jonathan Zeller\n - Ludwig Richter\n\nStory:\n - Jonathan Zeller\n - Ludwig Richter\n\nGroßes Dankeschön an:\n - Kerstin Reese und Andreas Zeller für das helfen bei der Story\n - Den Game Award Saar für den Denkanstoß, ein Spiel zu entwickeln."
+>>>>>>> 17923e1311500e123f2f37281eae460426dbb120
     }
 }
