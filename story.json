@@ -40,7 +40,7 @@
         "": "zuviel_wiederstand"
     },
     "zuviel_wiederstand": {
-        "text": "Deine stadt wird als 10. Ersatzstadt auf die Liste gesetzt, kommt jedoch nie zum einsatz.",
+        "text": "Deine Stadt wird als 10. Ersatzstadt auf eine Liste gesetzt, kommt jedoch nie zum einsatz.",
         "question": "Enter zum beenden",
         "": "ende"
     },
