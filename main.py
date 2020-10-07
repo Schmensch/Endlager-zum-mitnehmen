@@ -17,7 +17,7 @@ while True:
             decision_data = story[decision]
 
             print(decision_data["text"])
-            print(decision_data["question"])
+            #print(decision_data["question"])
             print("\n")
 
             answer = input()
