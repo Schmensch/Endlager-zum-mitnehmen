@@ -36,7 +36,11 @@
     },
     "verschwörungstheoretiker": {
         "text": "Da der Verschwörungstheoretiker verhaftet wird gibt es einen Shitstorm über dich, doch da der Theoretiken nicht sonderlich beliebt war ist der Shitstorm nicht wirklich groß",
-        "": ""
+        "": "fertigstellung"
+    },
+    "fertigstellung": {
+        "text": "Die Bauarbeiten sind fertiggestellt doch vor der inbetriebname kommt noch ein Bischen Bürokratische Arbeit auf dich zu doch das ist alles.",
+        "": "ende"
     },
     "golfclub": {
         "text": "Da die Meisten Leute die gegen das Endlager protestieren es sich garnicht leisten können in einen Golfclub zu gehn klapt das nicht wirklich gut. ",
