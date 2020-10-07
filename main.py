@@ -12,11 +12,18 @@ story = json.loads(data.read())
 decision = "start"
 
 while True:
-    decision_data = story[decision]
+    while True:
+        try:
+            decision_data = story[decision]
 
-    print(decision_data["text"])
-    print(decision_data["question"])
+            print(decision_data["text"])
+            print(decision_data["question"])
+            print("\n")
 
-    answer = input()
+            answer = input()
 
-    decision = decision_data[answer]
+            decision = decision_data[answer]
+
+            break
+        except:
+        print("Bitte eine valide Antwort eingeben. \n")
