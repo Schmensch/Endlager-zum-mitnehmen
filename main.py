@@ -21,7 +21,7 @@ while True:
             try:
 
                 decision_data = story[decision]
-                print(decision_data["text"])
+                print(decision_data[decision]["text"])
 
                 if decision == "ende":
                     ende = 1
