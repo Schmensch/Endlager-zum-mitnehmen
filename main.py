@@ -21,7 +21,7 @@ while True:
             try:
 
                 decision_data = story[decision]
-                print(decision_data[decision]["text"])
+                print(decision_data["text"])
 
                 if decision == "ende":
                     ende = 1
@@ -29,9 +29,9 @@ while True:
 
                 answer = input()
                 print("\n")
-                decision = decision_data[decision][answer]
+                decision = decision_data[answer]
 
                 break
 
-            except:
+            except OSError:
                 print("\nBitte eine valide Antwort eingeben.\n\n\n")

@@ -47,17 +47,15 @@
         "text": "Das Team stellt fest, dass der Boden eher ungeeignet für ein Atomlager ist.\nDie Kommision sagt, sie werden sich deine Stadt später nochmal anschauen, aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen, da der Boden deiner Stadt nicht geignet ist.",
         "": "ende"
     },
-<<<<<<< HEAD
     "ende" : {
         "text": "Dankeschön für das Spielen dieses Spiels.",
-        "question": "Code \n Jonathan Zeller \n Ludwig Richter \n \n Story \n Jonathan Zeller \n \n Großes Dankeschön an \n Ludwig Richter für das Helfen bei der Story \n Kerstin Reese und Andreas Zeller für das helfen bei der Story \n den Game Award Saar für den Impuls dieses Spiel zu erstellen."
-=======
-    "Golfclub": {
-        "text": "Da die meisten Leute aus der unteren Mittelschicht kommen, interessieren sie sich nicht für einen neuen Golfclub, von dem sie nicht profitieren können.\nDas Lager wird aufgrund andauernder Proteste in einem anderen Ort gebaut.",
-        "": "ende"
-    },
-    "ende" : {
-        "text": "Dankeschön für das Spielen dieses Spiels.\n\nCode:\n - Jonathan Zeller\n - Ludwig Richter\n\nStory:\n - Jonathan Zeller\n - Ludwig Richter\n\nGroßes Dankeschön an:\n - Kerstin Reese und Andreas Zeller für das helfen bei der Story\n - Den Game Award Saar für den Denkanstoß, ein Spiel zu entwickeln."
->>>>>>> 17923e1311500e123f2f37281eae460426dbb120
+        "question": "Code \n Jonathan Zeller \n Ludwig Richter \n \n Story \n Jonathan Zeller \n \n Großes Dankeschön an \n Ludwig Richter für das Helfen bei der Story \n Kerstin Reese und Andreas Zeller für das helfen bei der Story \n den Game Award Saar für den Impuls dieses Spiel zu erstellen.",
+        "Golfclub": {
+            "text": "Da die meisten Leute aus der unteren Mittelschicht kommen, interessieren sie sich nicht für einen neuen Golfclub, von dem sie nicht profitieren können.\nDas Lager wird aufgrund andauernder Proteste in einem anderen Ort gebaut.",
+            "": "ende"
+        },
+        "ende": {
+            "text": "Dankeschön für das Spielen dieses Spiels.\n\nCode:\n - Jonathan Zeller\n - Ludwig Richter\n\nStory:\n - Jonathan Zeller\n - Ludwig Richter\n\nGroßes Dankeschön an:\n - Kerstin Reese und Andreas Zeller für das helfen bei der Story\n - Den Game Award Saar für den Denkanstoß, ein Spiel zu entwickeln."
+        }
     }
 }
