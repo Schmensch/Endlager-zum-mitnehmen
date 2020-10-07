@@ -1,7 +1,7 @@
 {
     "start": {
         "text": "Du willst ein Atomendlager bauen lassen. Dafür musst du mit der Atomendlager-Komission in Kontakt treten.\nWillst du einen Brief an die Atomendlagerkommision schreiben?\n <j> Ja\n <n> Nein",
-        "j": "brief_bekommen",
+        "j": "bodenproben",
         "n": "nach_mehreren_jahren"
     },
     "bodenproben": {
