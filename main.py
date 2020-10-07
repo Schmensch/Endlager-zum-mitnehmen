@@ -14,15 +14,13 @@ decision = "start"
 while True:
     while True:
         try:
+
             decision_data = story[decision]
-
             print(decision_data["text"])
-            print("\n")
-
             answer = input()
-
+            print("\n")
             decision = decision_data[answer]
 
             break
         except:
-        print("Bitte eine valide Antwort eingeben. \n")
+            print("Bitte eine valide Antwort eingeben. \n")
