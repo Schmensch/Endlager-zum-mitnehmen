@@ -1,38 +1,33 @@
 {
     "start": {
         "text": "Du willst ein Atomendlager bauen lassen. Dafür musst du mit der Atomentlager-Komission in kontackt treten. \n Willst du einen Brief an die Atomendlagerkommision schreiben?\n <j> Ja\n <n> Nein",
-        "old_question": "Willst du einen Brief an die Atomendlagerkommision schreiben? \n <j> Ja \n <n> Nein",
         "j": "brief_bekommen",
         "n": "nach_mehreren_jahren"
     },
     "brief_bekommen": {
         "text": "Die Kommission hat dir geschrieben. Sie schaut sich den Ort genauer an. Sie will wissen, ob der Boden geeignet ist, um auch mehrere millionen Jahre zu halten.\nWillst du die Bodenproben fälschen oder ein professionelles Team den Boden auswerten lassen?\n<f> fälschen\n<p> Profesionelles Team",
-        "old_question": "Willst du die Bodenproben fälschen <f> oder ein professionelles Team den Boden auswerten lassen <p> ?",
         "f": "naehere_auswahl",
         "p": "nie_genommen"
     },
     "nach_mehreren_jahren": {
         "text": "Du wartest geduldig auf die Kommision, und nach mehreren Jahren an Wartezeit meldet sich endlich jemand.\nEnter um weiterzugehen.",
-        "old_question": "Enter um weiterzugehen.",
         "": "brief_bekommen"
     },
     "naehere_auswahl": {
         "text": "Du bist in die nahere Auswahl gekommen.\nJetzt werden erste Stimmen laut, viele Bürger, besonders Leute aus dem unteren Mittelstand und der Armut haben Angst, dass das Lager die Kinder vergiften könnte.\nWirst du mir den Zuschüssen einen neuen Golfclub bauen lassen oder die Leute damit überzeugen, dass es neue Arbeitsplätze gibt?\n <g> Golfclub\n <a> Arbeitsplätze",
-        "old_question": "Wirst du mir den Zuschüssen einen neuen Golfclub bauen lassen <g> oder die Leute damit überzeugen, dass es neue Arbeitsplätze gibt <a>?",
         "g": "Golfclub",
         "a": ""
     },
     "nie_genommen": {
         "text": "Das Team stellt fest, dass der Boden eher ungeeignet für ein Atomlager ist.\nDie Kommision sagt, sie werden sich deine Stadt später nochmal anschauen, aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen, da der Boden deiner Stadt nicht geignet ist.\n Enter um weiterzugehen.",
-        "old_question": "Die Kommision sagt, sie werden sich deine Stadt später nochmal anschauen, aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen, da der Boden deiner Stadt nicht geignet ist.\n Enter um weiterzugehen.",
         "": "ende"
     },
     "Golfclub": {
-        "text": "Da die Meisten Leute die gegen das Endlager protestieren es sich garnicht leisten können in einen Golfclub zu gehn.",
-        "question": ""
+        "text": "Da die meisten Leute aus der unteren Mittelschicht kommen, interessieren sie sich nicht für einen neuen Golfclub, von dem sie nicht profitieren können.\nDas Lager wird aufgrund andauernder Proteste in einem anderen Ort gebaut.\n Enter um weiterzugehen.",
+        "": "ende"
     },
     "ende" : {
         "text": "Dankeschön für das Spielen dieses Spiels.",
-        "question": "Code \n Jonathan Zeller \n \n Story \n Jonathan Zeller \n \n Großes Dankeschön an \n Ludwig Richter für das Helfen bei der Story \n Kerstin Reese und Andreas Zeller für das helfen bei der Story \n den Game Award Saar für den Impuls dieses Spiel zu erstellen."
+        "question": "Code:\n - Jonathan Zeller\n - Ludwig Richter\n\nStory:\n - Jonathan Zeller\n - Ludwig Richter\n\nGroßes Dankeschön an:\n - Kerstin Reese und Andreas Zeller für das helfen bei der Story\n - Den Game Award Saar für den Denkanstoß, ein Spiel zu entwickeln."
     }
 }
