@@ -22,15 +22,20 @@
         "a": "arbeitsplaetze"
     },
     "arbeitsplaetze": {
-        "text": "Da die meißten Protestierenden dadurch das die lokale Stahlfarbrick pleite ist Keinnen Arbeitsplatz Haben Funktioniert das sehr gut und die Proteste Verstummen. \n Enter um Weiter zu machen",
+        "text": "Da die meißten Protestierenden dadurch das die lokale Stahlfarbrick pleite ist keinen Arbeitsplatz haben funktioniert das sehr gut und die Proteste Verstummen. \n Enter um Weiter zu machen",
         "": "ein_zweiter_brief"
     },
     "ein_zweiter_brief": {
-        "text": "Die Kommision schreibt dir das das Endlager in deiner stadt geebaut werden soll. die bauarbeiten beginnen noch in diesem Monat. Enter zum Fortfahren.",
-        "": ""
+        "text": "Die Kommision schreibt dir das das Endlager in deiner stadt geebaut werden soll. die Bauarbeiten beginnen noch in diesem Monat. \n Enter zum Fortfahren.",
+        "": "sabotage"
     },
-    "Sabotage": {
-        "text": "Die Bauarbeiten wurden Sabotiert! \n Die Frage ist wer das ",
+    "sabotage": {
+        "text": "Die Bauarbeiten wurden Sabotiert! \n Es gibt zwei Verdächtige erstens <v> der Verschwörungstheorethiker, der auch viele weitere Theorien über Atomendlager gepostet hat oder ein <m> wilder Mob an Halbstarken, die besoffen Nachts in der Nähe der Baustelle rumgelaufen sind",
+        "v": "verschwörungstheoretiker",
+        "m": "halbschtarke"
+    },
+    "verschwörungstheoretiker": {
+        "text": "Da der Verschwörungstheoretiker verhaftet wird gibt es einen Shitstorm über dich, doch da der Theoretiken nicht sonderlich beliebt war ist der Shitstorm nicht wirklich groß",
         "": ""
     },
     "golfclub": {
