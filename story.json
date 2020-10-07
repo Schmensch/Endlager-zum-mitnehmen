@@ -19,17 +19,17 @@
     "naehere_auswahl": {
         "text": "Du bist in die nahere Auswahl gekommen. \n Jetzt werden erste Stimmen laut, viele Bürger, besonders Leute aus dem unteren Mittelstand und der Armut haben Angst, dass das Lager die Kinder vergiften könnte.",
         "question": "Wirst du mir den Zuschüssen einen neuen Golfclub bauen lassen <g> oder die Leute damit überzeugen, dass es neue Arbeitsplätze gibt <a>?",
-        "g": "Golfclub",
-        "a": ""
+        "g": "golfclub",
+        "a": "arbeitsplaetze"
     },
     "nie_genommen": {
         "text": "Das Team stellt fest, dass der Boden eher ungeeignet für ein Atomlager ist.",
         "question": " Die Kommision sagt, sie werden sich deine Stadt später nochmal anschauen, aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen, da der Boden deiner Stadt nicht geignet ist.\n Enter um weiterzugehen.",
         "": "ende"
     },
-    "Golfclub": {
-        "text": "Da die Meisten Leute die gegen das Endlager protestieren es sich garnicht leisten können in einen Golfclub zu gehn klapt das nicht wirklich gut und ",
-        "question": ""
+    "golfclub": {
+        "text": "Da die Meisten Leute die gegen das Endlager protestieren es sich garnicht leisten können in einen Golfclub zu gehn klapt das nicht wirklich gut. ",
+        "question": "Die Kommision meint das ein Endlager nur gebaut werden kann wenn die Einwohner deines Ortes damit einverstanden sind \n Enter um weiterzugehen",
 
     },
     "ende" : {
