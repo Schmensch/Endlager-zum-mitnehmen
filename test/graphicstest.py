@@ -1,11 +1,8 @@
 import graphics
-import map
 
 grp = graphics.Graphics()
 active = True
 
-maptest = map.Map("test")
-print(maptest.get_tile(2,2))
 
 
 while active:
