@@ -19,6 +19,9 @@ class Graphics:
             if event.type == pygame.QUIT:
                 return QUIT
 
+    def setTile(self, map_x, map_y):
+        pass
+
     def draw(self):
         self.screen.fill((255, 255, 0))
 
