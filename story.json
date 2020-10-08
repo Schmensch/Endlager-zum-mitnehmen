@@ -10,7 +10,7 @@
         "p": "nie_genommen"
     },
     "nach_mehreren_jahren": {
-        "text": "Du wartest geduldig auf die Kommision, und nach mehreren Jahren an Wartezeit meldet sich endlich jemand.",
+        "text": "Du wartest geduldig auf die Kommision, und nach mehreren Jahren an Wartezeit meldet sich endlich jemand..\n Enter um fortzufahren",
         "": "bodenproben"
     },
     "naehere_auswahl": {
@@ -27,11 +27,11 @@
         "": "bauarbeiten_verzögern_sich1"
     },
     "bauarbeiten_verzögern_sich1": {
-        "text": "Die Bauarbeiten verzögern sich.",
+        "text": "Die Bauarbeiten verzögern sich da es unerwartete Kosten für die ausbesserung eines Sturmschadens gab.",
         "": "bauarbeiten_verzögern_sich2"
     },
     "bauarbeiten_verzögern_sich2": {
-        "text": "Die Bauarbeiten verzögern sich wieder, mitlerweile ist es schon 2022.",
+        "text": "Die Bauarbeiten verzögern sich wieder, mitlerweile ist es schon 2022. Du bist nur noch 3 Jahre im Amt als Bürgermeister doch danach kannst du in Rente gehen.",
         "": "bauarbeiten_sabotiert"
     },
     "bauarbeiten_sabotiert": {
@@ -41,7 +41,7 @@
     },
     "verschörungstheoretiker": {
         "text": "Der Verschwörungstheoretiker wird festgenommen. In der Filterblase vieler anderer Verschwörungstheoretiker bereitet sich ein Shitstorm aus, der aber dank der Algorithmen von Twitter nie an Außenstehende geht.",
-        "": "bauarbeiten_verzögern_sich4"
+        "": "bauarbeiten_verzögern_sich3"
     },
     "halbstarke": {
         "text": "Die Jugendlichen werden festgenommen. Anscheinend hatten sie Freunde, die nun gar nicht gut gelaunt sind, denn am nächsten Tag geht eine Gruppe randalierender Personen durch die Stadt, die die Passanten verägern.",
