@@ -1,11 +1,11 @@
 {
     "start": {
-        "text": "Du willst ein Atomendlager bauen lassen. Dafür musst du mit der Atomendlager-Komission in Kontakt treten.\nWillst du einen Brief an die Atomendlagerkommision schreiben?\n <j> Ja\n <n> Nein",
+        "text": "Du willst ein Atomendlager bauen lassen. Dafür musst du mit der Atomendlager-Komission in Kontakt treten.\nWillst du einen Brief an die Atomendlagerkommision schreiben?\n  <j> Ja\n  <n> Nein",
         "j": "bodenproben",
         "n": "nach_mehreren_jahren"
     },
     "bodenproben": {
-        "text": "Die Kommission hat dir geschrieben. Sie schaut sich den Ort genauer an. Sie will wissen, ob der Boden geeignet ist, um auch mehrere millionen Jahre zu halten.\nWillst du die Bodenproben fälschen oder ein professionelles Team den Boden auswerten lassen?\n   <f> fälschen\n   <p> Profesionelles Team",
+        "text": "Die Kommission hat dir geschrieben. Sie schaut sich den Ort genauer an. Sie will wissen, ob der Boden geeignet ist, um auch mehrere millionen Jahre zu halten.\nWillst du die Bodenproben fälschen oder ein professionelles Team den Boden auswerten lassen?\n  <f> fälschen\n  <p> Profesionelles Team",
         "f": "naehere_auswahl",
         "p": "nie_genommen"
     },
@@ -14,7 +14,7 @@
         "": "bodenproben"
     },
     "naehere_auswahl": {
-        "text": "Du bist in die nahere Auswahl gekommen.\nJetzt werden erste Stimmen laut, viele Bürger, besonders Leute aus dem unteren Mittelstand und der Armut haben Angst, dass das Lager die Kinder vergiften könnte.\nWirst du mir den Zuschüssen einen neuen Golfclub bauen lassen oder die Leute damit überzeugen, dass es neue Arbeitsplätze gibt?\n   <g> Golfclub\n   <a> Arbeitsplätze",
+        "text": "Du bist in die nahere Auswahl gekommen.\nJetzt werden erste Stimmen laut, viele Bürger, besonders Leute aus dem unteren Mittelstand und der Armut haben Angst, dass das Lager die Kinder vergiften könnte.\nWirst du mir den Zuschüssen einen neuen Golfclub bauen lassen oder die Leute damit überzeugen, dass es neue Arbeitsplätze gibt?\n  <g> Golfclub\n  <a> Arbeitsplätze",
         "g": "Golfclub",
         "a": "mehr_arbeitsplaetze"
     },
@@ -39,7 +39,7 @@
         "": "bauarbeiten_sabotiert"
     },
     "bauarbeiten_sabotiert": {
-        "text": "Die Bauarbeiten ewerden sabotiert. Wer war es?\n 1. Ein Verschwörungstheoretiker, der schon viele Posts darüber gemacht hat, wie gefährlich ein Atomendlager ist.\n 2. Ein haufen halbstarker Jugendlicher, die besoffen waren und sich in der Nähe aufgehalten haben.\n\n <1> Verschwörungstheoretiker\n <2> halbstarke Jugendliche",
+        "text": "Die Bauarbeiten ewerden sabotiert. Wer war es?\n 1. Ein Verschwörungstheoretiker, der schon viele Posts darüber gemacht hat, wie gefährlich ein Atomendlager ist.\n 2. Ein haufen halbstarker Jugendlicher, die besoffen waren und sich in der Nähe aufgehalten haben.\n\n  <1> Verschwörungstheoretiker\n  <2> halbstarke Jugendliche",
         "1": "verschörungstheoretiker",
         "2": "halbstarke"
     },
