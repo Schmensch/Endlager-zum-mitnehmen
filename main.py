@@ -27,7 +27,7 @@ while ende == 0:
             answer = input()
 
             if answer == "text":
-                raise
+                raise None
 
             print("")
             decision = decision_data[answer]
