@@ -19,7 +19,7 @@
         "a": "mehr_arbeitsplaetze"
     },
     "mehr_arbeitsplaetze": {
-        "text": "Da die meisten Protestierenden aus der unteren Mittelschicht kommen und der Hauptwirtschaftszweig deiner Stadt schwach ist, haben die Proteste jetzt zum allergrößten Teil aufgehört.",
+        "text": "Da die meisten Protestierenden aus der unteren Mittelschicht kommen und der Hauptwirtschaftszweig deiner Stadt schwach ist, haben die Proteste jetzt zum allergrößten Teil aufgehört.\n Enter um fortzufahren.",
         "": "gewaehlt"
     },
     "gewaehlt": {
@@ -31,15 +31,11 @@
         "": "bauarbeiten_verzögern_sich2"
     },
     "bauarbeiten_verzögern_sich2": {
-        "text": "Die Bauarbeiten verzögern sich immer noch.",
-        "": "bauarbeiten_verzögern_sich3"
-    },
-    "bauarbeiten_verzögern_sich3": {
         "text": "Die Bauarbeiten verzögern sich wieder, mitlerweile ist es schon 2022.",
         "": "bauarbeiten_sabotiert"
     },
     "bauarbeiten_sabotiert": {
-        "text": "Die Bauarbeiten ewerden sabotiert. Wer war es?\n  1. Ein Verschwörungstheoretiker, der schon viele Posts darüber gemacht hat, wie gefährlich ein Atomendlager ist.\n  2. Ein haufen halbstarker Jugendlicher, die besoffen waren und sich in der Nähe aufgehalten haben.\n\n  <1> Verschwörungstheoretiker\n  <2> halbstarke Jugendliche",
+        "text": "Die Bauarbeiten werden sabotiert. Wer war es?\n  1. Ein Verschwörungstheoretiker, der schon viele Posts darüber gemacht hat, wie gefährlich ein Atomendlager ist.\n  2. Ein haufen halbstarker Jugendlicher, die besoffen waren und sich in der Nähe aufgehalten haben.\n\n  <1> Verschwörungstheoretiker\n  <2> halbstarke Jugendliche",
         "1": "verschörungstheoretiker",
         "2": "halbstarke"
     },
@@ -49,9 +45,9 @@
     },
     "halbstarke": {
         "text": "Die Jugendlichen werden festgenommen. Anscheinend hatten sie Freunde, die nun gar nicht gut gelaunt sind, denn am nächsten Tag geht eine Gruppe randalierender Personen durch die Stadt, die die Passanten verägern.",
-        "": "bauarbeiten_verzögern_sich4"
+        "": "bauarbeiten_verzögern_sich3"
     },
-    "bauarbeiten_verzögern_sich4": {
+    "bauarbeiten_verzögern_sich3": {
         "text": "Die Bauarbeiten verzögern sich und die Eröffnung wird auf 2030 verschoben.",
         "": "erroeffnung"
     },
