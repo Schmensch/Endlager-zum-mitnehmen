@@ -56,7 +56,8 @@
         "": "erroeffnung"
     },
     "erroeffnung": {
-        "text": "Du bist schon lange kein Bürgermeister mehr. Während du deine Rente genießt, kommt eine Zeitung an. 2043: Jetzt endlich die Atomendlagereröffnung?"
+        "text": "Du bist schon lange kein Bürgermeister mehr. Während du deine Rente genießt, kommt eine Zeitung an. 2043: Jetzt endlich die Atomendlagereröffnung?",
+        "": "ende"
     },
     "nie_genommen": {
         "text": "Das Team stellt fest, dass der Boden eher ungeeignet für ein Atomlager ist.\nDie Kommision sagt, sie werden sich deine Stadt später nochmal anschauen, aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen, da der Boden deiner Stadt nicht geignet ist.",
