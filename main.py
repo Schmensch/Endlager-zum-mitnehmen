@@ -13,29 +13,26 @@ decision = "start"
 
 ende = 0
 
-while True:
-    if ende == 1:
-        break
-    else:
-        while True:
-            try:
+while ende == 0:
+    while True:
+        try:
 
-                decision_data = story[decision]
-                print(decision_data["text"])
+            decision_data = story[decision]
+            print(decision_data["text"])
 
-                if decision == "ende":
-                    ende = 1
-                    break
-
-                answer = input()
-
-                if answer == "text":
-                    raise
-
-                print("")
-                decision = decision_data[answer]
-
+            if decision == "ende":
+                ende = 1
                 break
 
-            except:
-                print("\n\nBitte eine valide Antwort eingeben.\n\n")
+            answer = input()
+
+            if answer == "text":
+                raise None
+
+            print("")
+            decision = decision_data[answer]
+
+            break
+
+        except:
+            print("\n\nBitte eine valide Antwort eingeben.\n\n")
