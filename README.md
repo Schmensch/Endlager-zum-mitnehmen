@@ -7,6 +7,7 @@ Warum also gibt es so viele Proteste dagegen?
 ## Wie genau spiele ich das Spiel?
 
 Klone das Github-Repo. Dann startest du die main.py-Datei im Hauptverzeichnis.
+Man benötigt außerdem auch noch Python 3.8. Das Spiel läuft vielleicht auch mit anderen Python-3-Versionen, aber hier gibt es keine Garantie von uns.
 
 ## Warum hast du dieses Spiel erstellt?
 
