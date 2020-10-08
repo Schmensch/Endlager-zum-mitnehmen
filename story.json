@@ -22,7 +22,7 @@
         "a": "arbeitsplaetze"
     },
     "arbeitsplaetze": {
-        "text": "Da die meißten Protestierenden dadurch das die lokale Stahlfarbrick pleite ist keinen Arbeitsplatz haben funktioniert das sehr gut und die Proteste Verstummen. \n Enter um Weiter zu machen",
+        "text": "Da die meißten Protestierenden dadurch das die lokale Stahlfarbrick pleite ist keinen Arbeitsplatz mehr haben funktioniert das sehr gut und die Proteste Verstummen. \n Enter um Weiter zu machen",
         "": "ein_zweiter_brief"
     },
     "ein_zweiter_brief": {
@@ -30,16 +30,25 @@
         "": "sabotage"
     },
     "sabotage": {
-        "text": "Die Bauarbeiten wurden Sabotiert! \n Es gibt zwei Verdächtige erstens <v> der Verschwörungstheorethiker, der auch viele weitere Theorien über Atomendlager gepostet hat oder ein <m> wilder Mob an Halbstarken, die besoffen Nachts in der Nähe der Baustelle rumgelaufen sind",
+        "text": "Die Bauarbeiten wurden Sabotiert! \n Es gibt zwei Verdächtige erstens <v> den Verschwörungstheorethiker, der viele Theorien über Atomendlager gepostet hat oder ein <m> wilder Mob an Halbstarken, die besoffen Nachts in der Nähe der Baustelle rumgelaufen sind",
         "v": "verschwörungstheoretiker",
-        "m": "halbschtarke"
+        "m": "halbstarke"
     },
     "verschwörungstheoretiker": {
         "text": "Da der Verschwörungstheoretiker verhaftet wird gibt es einen Shitstorm über dich, doch da der Theoretiken nicht sonderlich beliebt war ist der Shitstorm nicht wirklich groß",
         "": "fertigstellung"
     },
+    "halbstarke": {
+        "text": "Die Halbstarken werden verhaftet doch jetzt sind die Freunde der Halbstarken sehr sauer und zerstören die Baustelle. \n willst du einen Polizeieinsetz starten <p> oder die Halbstarken wieder Freilassen <f>",
+        "p": "polizeieinsatz",
+        "f": "freilasssung"
+    },
+    "polizeieinsatz": {
+        "text": "der Polizeieinsatz ist nicht erfolgreich und jetzt sind die anderen Halbstarken erst recht sauer. Ein willder Mob stürmt dein Rathaus und du wirst von ihnen krankenhausreif geschlagen. Da du eine Monat im Koma gelegen hast wurden die Bauarbeiten abgebrochen und der zweite Ersatzpartner wird stat dir als Bauort für das Endlager eingesetzt \n Enter zum um zu beenden.",
+        "": "ende"
+    },
     "fertigstellung": {
-        "text": "Die Bauarbeiten sind fertiggestellt doch vor der inbetriebname kommt noch ein Bischen Bürokratische Arbeit auf dich zu doch das ist alles.",
+        "text": "Die Bauarbeiten sind fertiggestellt doch vor der inbetriebname kommt noch ein Bischen Bürokratische Arbeit auf dich zu, doch das ist alles.",
         "": "ende"
     },
     "golfclub": {
