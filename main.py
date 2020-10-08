@@ -28,7 +28,7 @@ while True:
                     break
 
                 answer = input()
-                print("\n")
+                print("")
                 decision = decision_data[answer]
 
                 break
