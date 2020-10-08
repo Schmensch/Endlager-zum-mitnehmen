@@ -1,19 +1,34 @@
 {
     "start": {
-        "text": "Du willst ein Atomendlager bauen lassen. Dafür musst du mit der Atomendlager-Komission in Kontakt treten.\nWillst du einen Brief an die Atomendlagerkommision schreiben?\n <j> Ja\n <n> Nein",
+        "text": "Du willst ein Atomendlager bauen lassen. Dafür musst du mit der Atomendlager-Komission in Kontakt treten.\nWillst du einen Brief an die Atomendlagerkommision schreiben?\n  <j> Ja\n  <n> Nein",
         "j": "bodenproben",
         "n": "nach_mehreren_jahren"
     },
+<<<<<<< HEAD
+=======
+    "bodenproben": {
+        "text": "Die Kommission hat dir geschrieben. Sie schaut sich den Ort genauer an. Sie will wissen, ob der Boden geeignet ist, um auch mehrere millionen Jahre zu halten.\nWillst du die Bodenproben fälschen oder ein professionelles Team den Boden auswerten lassen?\n  <f> fälschen\n  <p> Profesionelles Team",
+        "f": "naehere_auswahl",
+        "p": "nie_genommen"
+    },
+>>>>>>> 1b59e34b069b411af58d4835e4e1ed2229d880ad
     "nach_mehreren_jahren": {
         "text": "Du wartest geduldig auf die Kommision, und nach mehreren Jahren an Wartezeit meldet sich endlich jemand.",
         "question": "Enter um weiterzugehen.",
         "": "brief_bekommen"
     },
+<<<<<<< HEAD
     "brief_bekommen": {
         "text": "Die Kommission hat dir geschrieben. Sie schaut sich den Ort genauer an. Sie will wissen, ob der Boden geeignet ist, um auch mehrere millionen Jahre zu halten.",
         "question": "Willst du die Bodenproben fälschen <f> oder ein professionelles Team den Boden auswerten lassen <p> ?",
         "f": "naehere_auswahl",
         "p": "nie_genommen"
+=======
+    "naehere_auswahl": {
+        "text": "Du bist in die nahere Auswahl gekommen.\nJetzt werden erste Stimmen laut, viele Bürger, besonders Leute aus dem unteren Mittelstand und der Armut haben Angst, dass das Lager die Kinder vergiften könnte.\nWirst du mir den Zuschüssen einen neuen Golfclub bauen lassen oder die Leute damit überzeugen, dass es neue Arbeitsplätze gibt?\n  <g> Golfclub\n  <a> Arbeitsplätze",
+        "g": "Golfclub",
+        "a": "mehr_arbeitsplaetze"
+>>>>>>> 1b59e34b069b411af58d4835e4e1ed2229d880ad
     },
     "naehere_auswahl": {
         "text": "Du bist in die nahere Auswahl gekommen. \n Jetzt werden erste Stimmen laut, viele Bürger, besonders Leute aus dem unteren Mittelstand und der Armut haben Angst, dass das Lager die Kinder vergiften könnte.",
@@ -29,6 +44,7 @@
         "text": "Die Kommision schreibt dir das das Endlager in deiner stadt geebaut werden soll. die Bauarbeiten beginnen noch in diesem Monat. \n Enter zum Fortfahren.",
         "": "sabotage"
     },
+<<<<<<< HEAD
     "sabotage": {
         "text": "Die Bauarbeiten wurden Sabotiert! \n Es gibt zwei Verdächtige erstens <v> den Verschwörungstheorethiker, der viele Theorien über Atomendlager gepostet hat oder ein <m> wilder Mob an Halbstarken, die besoffen Nachts in der Nähe der Baustelle rumgelaufen sind",
         "v": "verschwörungstheoretiker",
@@ -42,6 +58,20 @@
         "text": "Die Halbstarken werden verhaftet doch jetzt sind die Freunde der Halbstarken sehr sauer und zerstören die Baustelle. \n willst du einen Polizeieinsetz starten <p> oder die Halbstarken wieder Freilassen <f>",
         "p": "polizeieinsatz",
         "f": "freilasssung"
+=======
+    "bauarbeiten_verzögern_sich2": {
+        "text": "Die Bauarbeiten verzögern sich immer noch.",
+        "": "bauarbeiten_verzögern_sich3"
+    },
+    "bauarbeiten_verzögern_sich3": {
+        "text": "Die Bauarbeiten verzögern sich wieder, mitlerweile ist es schon 2022.",
+        "": "bauarbeiten_sabotiert"
+    },
+    "bauarbeiten_sabotiert": {
+        "text": "Die Bauarbeiten ewerden sabotiert. Wer war es?\n  1. Ein Verschwörungstheoretiker, der schon viele Posts darüber gemacht hat, wie gefährlich ein Atomendlager ist.\n  2. Ein haufen halbstarker Jugendlicher, die besoffen waren und sich in der Nähe aufgehalten haben.\n\n  <1> Verschwörungstheoretiker\n  <2> halbstarke Jugendliche",
+        "1": "verschörungstheoretiker",
+        "2": "halbstarke"
+>>>>>>> 1b59e34b069b411af58d4835e4e1ed2229d880ad
     },
     "polizeieinsatz": {
         "text": "der Polizeieinsatz ist nicht erfolgreich und jetzt sind die anderen Halbstarken erst recht sauer. Ein willder Mob stürmt dein Rathaus und du wirst von ihnen krankenhausreif geschlagen. Da du eine Monat im Koma gelegen hast wurden die Bauarbeiten abgebrochen und der zweite Ersatzpartner wird stat dir als Bauort für das Endlager eingesetzt \n Enter zum um zu beenden.",
@@ -56,9 +86,14 @@
         "question": "Die Kommision meint das ein Endlager nur gebaut werden kann wenn die Einwohner deines Ortes damit einverstanden sind. \n Enter um Weiter zu machen",
         "": "zuviel_wiederstand"
     },
+<<<<<<< HEAD
     "zuviel_wiederstand": {
         "text": "Deine Stadt wird als 10. Ersatzstadt auf eine Liste gesetzt, kommt jedoch nie zum einsatz.",
         "question": "Enter zum beenden",
+=======
+    "erroeffnung": {
+        "text": "Du bist schon lange kein Bürgermeister mehr. Während du deine Rente genießt, kommt eine Zeitung an. 2043: Jetzt endlich die Atomendlagereröffnung?",
+>>>>>>> 1b59e34b069b411af58d4835e4e1ed2229d880ad
         "": "ende"
     },
     "nie_genommen": {
