@@ -28,10 +28,14 @@ while True:
                     break
 
                 answer = input()
+
+                if answer == "text":
+                    raise
+
                 print("")
                 decision = decision_data[answer]
 
                 break
 
             except:
-                print("\nBitte eine valide Antwort eingeben.\n\n\n")
+                print("\n\nBitte eine valide Antwort eingeben.\n\n")
