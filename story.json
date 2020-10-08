@@ -39,7 +39,7 @@
         "": "bauarbeiten_sabotiert"
     },
     "bauarbeiten_sabotiert": {
-        "text": "Die Bauarbeiten ewerden sabotiert. Wer war es?\n 1. Ein Verschwörungstheoretiker, der schon viele Posts darüber gemacht hat, wie gefährlich ein Atomendlager ist.\n 2. Ein haufen halbstarker Jugendlicher, die besoffen waren und sich in der Nähe aufgehalten haben.\n\n  <1> Verschwörungstheoretiker\n  <2> halbstarke Jugendliche",
+        "text": "Die Bauarbeiten ewerden sabotiert. Wer war es?\n  1. Ein Verschwörungstheoretiker, der schon viele Posts darüber gemacht hat, wie gefährlich ein Atomendlager ist.\n  2. Ein haufen halbstarker Jugendlicher, die besoffen waren und sich in der Nähe aufgehalten haben.\n\n  <1> Verschwörungstheoretiker\n  <2> halbstarke Jugendliche",
         "1": "verschörungstheoretiker",
         "2": "halbstarke"
     },
