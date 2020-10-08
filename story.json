@@ -31,11 +31,11 @@
         "": "bauarbeiten_verzögern_sich2"
     },
     "bauarbeiten_verzögern_sich2": {
-        "text": "Die Bauarbeiten verzögern sich wieder, mitlerweile ist es schon 2022.",
+        "text": "Die Bauarbeiten verzögern sich immer noch.",
         "": "bauarbeiten_verzögern_sich3"
     },
     "bauarbeiten_verzögern_sich3": {
-        "text": "Die Bauarbeiten verzögern sich immer noch.",
+        "text": "Die Bauarbeiten verzögern sich wieder, mitlerweile ist es schon 2022.",
         "": "bauarbeiten_sabotiert"
     },
     "bauarbeiten_sabotiert": {
