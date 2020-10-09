@@ -15,7 +15,7 @@
     },
     "naehere_auswahl": {
         "text": "Du bist in die nahere Auswahl gekommen.\nJetzt werden erste Stimmen laut, viele Bürger, besonders Leute aus dem unteren Mittelstand und der Armut haben Angst, dass das Lager die Kinder vergiften könnte.\nWirst du mir den Zuschüssen einen neuen Golfclub bauen lassen oder die Leute damit überzeugen, dass es neue Arbeitsplätze gibt?\n  <g> Golfclub\n  <a> Arbeitsplätze",
-        "g": "Golfclub",
+        "g": "golfclub",
         "a": "mehr_arbeitsplaetze"
     },
     "mehr_arbeitsplaetze": {
@@ -59,7 +59,7 @@
         "text": "Das Team stellt fest, dass der Boden eher ungeeignet für ein Atomlager ist.\nDie Kommision sagt, sie werden sich deine Stadt später nochmal anschauen, aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen.",
         "": "ende"
     },
-    "Golfclub": {
+    "golfclub": {
         "text": "Da die meisten Leute aus der unteren Mittelschicht kommen, interessieren sie sich nicht für einen neuen Golfclub, von dem sie nicht profitieren können.\nDas Lager wird aufgrund andauernder Proteste in einem anderen Ort gebaut.",
         "": "ende"
     },
