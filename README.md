@@ -1,8 +1,11 @@
-# Um was geht es
+## Um was geht es
 
 In diesem Spiel bist du der Bürgermeister einer Stadt, und du musst versuchen, ein Atomares Endlager in deinen Ort zu bekommen, damit du von den Prämien profitierst. Dein Ort braucht außerdem neue Arbeitsplätze, da die Hauptindustrie langsam bankrott geht.
-
 Warum also gibt es so viele Proteste dagegen?
+
+## Trailer
+
+![game trailer](https://github.com/Schmensch/Endlager-zum-mitnehmen/blob/master/media/trailer.mkv?raw=true)
 
 ## Wie genau spiele ich das Spiel?
 
