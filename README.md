@@ -5,7 +5,7 @@ Warum also gibt es so viele Proteste dagegen?
 
 ## Trailer
 
-![game trailer](https://github.com/Schmensch/Endlager-zum-mitnehmen/blob/master/media/trailer.mp4?raw=true)
+![game trailer](https://github.com/Schmensch/Endlager-zum-mitnehmen/blob/master/media/footage.jpg?raw=true)
 
 ## Wie genau spiele ich das Spiel?
 
