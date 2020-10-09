@@ -22,6 +22,7 @@ while ende == 0:
 
             if decision == "ende":
                 ende = 1
+                input()
                 break
 
             answer = input()

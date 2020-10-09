@@ -10,16 +10,16 @@
         "p": "nie_genommen"
     },
     "nach_mehreren_jahren": {
-        "text": "Du wartest geduldig auf die Kommision, und nach mehreren Jahren an Wartezeit meldet sich endlich jemand..\n Enter um fortzufahren",
+        "text": "Du wartest geduldig auf die Kommision, und nach mehreren Jahren an Wartezeit meldet sich endlich jemand.\n  Enter um fortzufahren",
         "": "bodenproben"
     },
     "naehere_auswahl": {
         "text": "Du bist in die nahere Auswahl gekommen.\nJetzt werden erste Stimmen laut, viele Bürger, besonders Leute aus dem unteren Mittelstand und der Armut haben Angst, dass das Lager die Kinder vergiften könnte.\nWirst du mir den Zuschüssen einen neuen Golfclub bauen lassen oder die Leute damit überzeugen, dass es neue Arbeitsplätze gibt?\n  <g> Golfclub\n  <a> Arbeitsplätze",
-        "g": "Golfclub",
+        "g": "golfclub",
         "a": "mehr_arbeitsplaetze"
     },
     "mehr_arbeitsplaetze": {
-        "text": "Da die meisten Protestierenden aus der unteren Mittelschicht kommen und der Hauptwirtschaftszweig deiner Stadt schwach ist, haben die Proteste jetzt zum allergrößten Teil aufgehört.\n Enter um fortzufahren.",
+        "text": "Da die meisten Protestierenden aus der unteren Mittelschicht kommen und der Hauptwirtschaftszweig deiner Stadt schwach ist, haben die Proteste jetzt zum allergrößten Teil aufgehört.\n  Enter um fortzufahren.",
         "": "gewaehlt"
     },
     "gewaehlt": {
@@ -27,15 +27,15 @@
         "": "bauarbeiten_verzögern_sich1"
     },
     "bauarbeiten_verzögern_sich1": {
-        "text": "Die Bauarbeiten verzögern sich da es unerwartete Kosten für die ausbesserung eines Sturmschadens gab.",
+        "text": "Die Bauarbeiten verzögern sich, da es unerwartete Kosten für die Ausbesserung eines Sturmschadens gab.",
         "": "bauarbeiten_verzögern_sich2"
     },
     "bauarbeiten_verzögern_sich2": {
-        "text": "Die Bauarbeiten verzögern sich wieder, mitlerweile ist es schon 2022. Du bist nur noch 3 Jahre im Amt als Bürgermeister doch danach kannst du in Rente gehen.",
+        "text": "Die Bauarbeiten verzögern sich wieder, mitlerweile ist es schon 2022. Du bist nur noch 3 Jahre im Amt als Bürgermeister, denn danach kannst du in Rente gehen.",
         "": "bauarbeiten_sabotiert"
     },
     "bauarbeiten_sabotiert": {
-        "text": "Die Bauarbeiten werden sabotiert. Wer war es?\n  1. Ein Verschwörungstheoretiker, der schon viele Posts darüber gemacht hat, wie gefährlich ein Atomendlager ist.\n  2. Ein haufen halbstarker Jugendlicher, die besoffen waren und sich in der Nähe aufgehalten haben.\n\n  <1> Verschwörungstheoretiker\n  <2> halbstarke Jugendliche",
+        "text": "Die Bauarbeiten werden sabotiert. Wer war es?\n  1. Ein Verschwörungstheoretiker, der schon viele Posts darüber gemacht hat, wie gefährlich ein Atomendlager ist.\n  2. Ein Haufen halbstarker Jugendlicher, die besoffen waren und sich in der Nähe aufgehalten haben.\n\n  <1> Verschwörungstheoretiker\n  <2> halbstarke Jugendliche",
         "1": "verschörungstheoretiker",
         "2": "halbstarke"
     },
@@ -48,7 +48,7 @@
         "": "bauarbeiten_verzögern_sich3"
     },
     "bauarbeiten_verzögern_sich3": {
-        "text": "Die Bauarbeiten verzögern sich und die Eröffnung wird auf 2030 verschoben.",
+        "text": "Die Bauarbeiten verzögern sich, und die Eröffnung wird auf 2030 verschoben.",
         "": "erroeffnung"
     },
     "erroeffnung": {
@@ -56,10 +56,10 @@
         "": "ende"
     },
     "nie_genommen": {
-        "text": "Das Team stellt fest, dass der Boden eher ungeeignet für ein Atomlager ist.\nDie Kommision sagt, sie werden sich deine Stadt später nochmal anschauen, aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen, da der Boden deiner Stadt nicht geignet ist.",
+        "text": "Das Team stellt fest, dass der Boden eher ungeeignet für ein Atomlager ist.\nDie Kommision sagt, sie werden sich deine Stadt später nochmal anschauen, aber auch nach mehreren Jahren an Wartezeit wirst du nicht genommen.",
         "": "ende"
     },
-    "Golfclub": {
+    "golfclub": {
         "text": "Da die meisten Leute aus der unteren Mittelschicht kommen, interessieren sie sich nicht für einen neuen Golfclub, von dem sie nicht profitieren können.\nDas Lager wird aufgrund andauernder Proteste in einem anderen Ort gebaut.",
         "": "ende"
     },
