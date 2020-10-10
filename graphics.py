@@ -7,7 +7,6 @@ QUIT = 1
 MENU = 0
 GAME = 2
 
-
 size = width, height = 1000, 800
 
 
@@ -26,6 +25,12 @@ class Graphics:
         self.new_game_btn = button.Button(new_btn_img, new_btn_hvr, new_btn_clk, (250, 600),
                                           self.on_btn_click, "new_game")
 
+        load_btn_img = pygame.image.load("../assets/button.png")
+        load_btn_clk = pygame.image.load("../assets/buttonclicked.png")
+        load_btn_hvr = pygame.image.load("../assets/buttonhover.png")
+        self.load_game_btn = button.Button(load_btn_img, load_btn_hvr, load_btn_clk, (750, 600),
+                                           self.on_btn_click, "load_game")
+
     def event_update(self):
         for event in pygame.event.get():
 
@@ -34,11 +39,14 @@ class Graphics:
             if event.type == pygame.MOUSEBUTTONUP:
                 if event.button == 1:
                     self.new_game_btn.on_release(event)
+                    self.load_game_btn.on_release(event)
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if event.button == 1:
                     self.new_game_btn.on_click(event)
+                    self.load_game_btn.on_click(event)
             if event.type == pygame.MOUSEMOTION:
                 self.new_game_btn.on_hover(event)
+                self.load_game_btn.on_hover(event)
 
     def set_tile(self, map_x, map_y, tile):
         real_x = map_x * 0.5 * 128
@@ -53,6 +61,7 @@ class Graphics:
 
         if self.state == GAME:
             self.new_game_btn.disabled = True
+            self.load_game_btn.disabled = True
             self.screen.fill((0, 0, 0))
             map_json = self.map.get_whole_map()
             for x in range(len(map_json["map"])):
@@ -65,9 +74,10 @@ class Graphics:
 
         else:
             self.new_game_btn.disabled = False
+            self.load_game_btn.disabled = False
             self.screen.fill((0, 0, 0))
             self.screen.blit(self.new_game_btn.image, self.new_game_btn.rect)
-
+            self.screen.blit(self.load_game_btn.image, self.load_game_btn.rect)
 
     def update(self):
         pygame.display.flip()
@@ -77,7 +87,13 @@ class Graphics:
 
     def on_btn_click(self, btn):
         if btn.name == "new_game":
-            file = easygui.filesavebox()
-            self.map = map.Map(file)
-            self.state = GAME
-
+            file = easygui.filesavebox(None, "Create new Game", "*.sav", ["*.sav", "SAV files"])
+            if file is not None:
+                self.map = map.Map(file)
+                self.map.gen_new_map(10, 10)
+                self.state = GAME
+        if btn.name == "load_game":
+            file = easygui.fileopenbox(None, "Load Game", "*.sav", ["*.sav", "SAV files"])
+            if file is not None:
+                self.map = map.Map(file)
+                self.state = GAME
