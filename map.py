@@ -2,8 +2,8 @@ import json
 
 
 class Map:
-    def __init__(self, save):
-        self.savePath = "../maps/" + save + ".sav"
+    def __init__(self, file):
+        self.savePath = file
 
     def get_tile(self, x, y):
         map_save = open(self.savePath, "r", encoding="utf-8")

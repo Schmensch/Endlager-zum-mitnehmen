@@ -1,6 +1,7 @@
 import pygame
 import map
 import button
+import easygui
 
 QUIT = 1
 MENU = 0
@@ -16,21 +17,28 @@ class Graphics:
         self.screen = pygame.display.set_mode(size)
         pygame.display.set_caption("Endlager zum mitnehmen")
         self.clock = pygame.time.Clock()
-        self.map = map.Map(map_safe)
+        self.map = None
         self.state = MENU
 
-        btn_img = pygame.image.load("../assets/button.png")
-        self.new_game_btn = button.Button(btn_img, (250, 600), self.on_btn_click, "new_game")
-
+        new_btn_img = pygame.image.load("../assets/button.png")
+        new_btn_clk = pygame.image.load("../assets/buttonclicked.png")
+        new_btn_hvr = pygame.image.load("../assets/buttonhover.png")
+        self.new_game_btn = button.Button(new_btn_img, new_btn_hvr, new_btn_clk, (250, 600),
+                                          self.on_btn_click, "new_game")
 
     def event_update(self):
         for event in pygame.event.get():
 
             if event.type == pygame.QUIT:
                 return QUIT
+            if event.type == pygame.MOUSEBUTTONUP:
+                if event.button == 1:
+                    self.new_game_btn.on_release(event)
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if event.button == 1:
                     self.new_game_btn.on_click(event)
+            if event.type == pygame.MOUSEMOTION:
+                self.new_game_btn.on_hover(event)
 
     def set_tile(self, map_x, map_y, tile):
         real_x = map_x * 0.5 * 128
@@ -67,6 +75,9 @@ class Graphics:
     def fps(self, fps):
         self.clock.tick(fps)
 
-    def on_btn_click(self, test):
-        print(test.name)
+    def on_btn_click(self, btn):
+        if btn.name == "new_game":
+            file = easygui.filesavebox()
+            self.map = map.Map(file)
+            self.state = GAME
 
