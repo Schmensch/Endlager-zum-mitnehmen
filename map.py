@@ -37,3 +37,9 @@ class Map:
         map_dict = json.loads(map_save.read())
         map_save.close()
         return map_dict["width"], map_dict["height"]
+
+    def get_whole_map(self):
+        map_save = open(self.savePath, "r", encoding="utf-8")
+        map_dict = json.loads(map_save.read())
+        map_save.close()
+        return map_dict
