@@ -64,13 +64,22 @@ class Graphics:
             self.load_game_btn.disabled = True
             self.screen.fill((0, 0, 0))
             map_json = self.map.get_whole_map()
-            for x in range(len(map_json["map"])):
-                for y in range(len(map_json["map"][x])):
-                    real_x = x * 0.5 * 128
-                    real_y = y * 0.5 * 64 - 447
-                    if map_json["map"][x][y]["type"] != "air":
-                        image = pygame.image.load("../assets/" + map_json["map"][x][y]["type"] + ".png")
-                        self.screen.blit(image, (real_x, real_y))
+            map_sz = self.map.get_map_size()
+            for y in range(map_sz[1]):
+                for x in range(map_sz[0]):
+                    if x % 2:
+                        real_x = x * 0.5 * 128
+                        real_y = y * 64 - 447
+                        if map_json["map"][x][y]["type"] != "air":
+                            image = pygame.image.load("../assets/" + map_json["map"][x][y]["type"] + ".png")
+                            self.screen.blit(image, (real_x, real_y))
+                for x in range(map_sz[0]):
+                    if not x % 2:
+                        real_x = x * 0.5 * 128
+                        real_y = (y + 0.5) * 64 - 447
+                        if map_json["map"][x][y]["type"] != "air":
+                            image = pygame.image.load("../assets/" + map_json["map"][x][y]["type"] + ".png")
+                            self.screen.blit(image, (real_x, real_y))
 
         else:
             self.new_game_btn.disabled = False
@@ -90,7 +99,7 @@ class Graphics:
             file = easygui.filesavebox(None, "Create new Game", "*.sav", ["*.sav", "SAV files"])
             if file is not None:
                 self.map = map.Map(file)
-                self.map.gen_new_map(10, 10)
+                self.map.gen_new_map(20, 20)
                 self.state = GAME
         if btn.name == "load_game":
             file = easygui.fileopenbox(None, "Load Game", "*.sav", ["*.sav", "SAV files"])

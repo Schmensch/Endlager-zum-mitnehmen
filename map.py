@@ -27,7 +27,7 @@ class Map:
         for y in range(0, height):
             mapdict["map"].append([])
             for x in range(0, width):
-                mapdict["map"][y].append({"type": "air"})
+                mapdict["map"][y].append({"type": "testobj"})
         with open(self.savePath, "w") as file:
             json.dump(mapdict, file)
         file.close()
